@@ -1,123 +1,123 @@
 Using pre-set license
-Built from '2020.3/release' branch; Version is '2020.3.15f2 (6cf78cb77498) revision 7141260'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 18363.1734; Version 1909; 64bit' Language: 'ko' Physical Memory: 16324 MB
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'ko' Physical Memory: 32712 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\Hub\Editor\2020.3.15f2\Editor\Unity.exe
+C:\Unity\install\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity Projects/Prototype_2
+C:/UnityProjects/Prototype_2/Prototype_2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51322
-Successfully changed project path to: C:/Unity Projects/Prototype_2
-C:/Unity Projects/Prototype_2
+8187
+Successfully changed project path to: C:/UnityProjects/Prototype_2/Prototype_2
+C:/UnityProjects/Prototype_2/Prototype_2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 26.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.15f2 (6cf78cb77498)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Projects/Prototype_2/Assets
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Unity/install/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/Prototype_2/Prototype_2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     5991 MB
+    VRAM:     6052 MB
     Driver:   30.0.14.7168
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Mono path[0] = 'C:/Unity/install/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/install/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/install/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001026 seconds.
+Register platform support module: C:/Unity/install/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001449 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 27.05 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 20.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.708 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1709ms)
-		BeginReloadAssembly (56ms)
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (369ms)
-			LoadAssemblies (55ms)
+		EndReloadAssembly (261ms)
+			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (133ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (144ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (103ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (27ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (74ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (54ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007585 seconds.
+Registered in 0.002954 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
+- Completed reload, in  0.680 seconds
 Domain Reload Profiling:
-	ReloadAssembly (958ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (771ms)
-			LoadAssemblies (94ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (547ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (162ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (326ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (248ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (198ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.6 MB.
-System memory in use after: 69.5 MB.
+System memory in use before: 66.7 MB.
+System memory in use after: 66.7 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1851.
-Total: 1.893100 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.036600 ms MarkObjects: 1.606000 ms  DeleteObjects: 0.118900 ms)
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1851.
+Total: 2.389400 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.049700 ms MarkObjects: 2.075700 ms  DeleteObjects: 0.084600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,1491 +131,144 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AurynSky/Desert Pack/Scenes
-  artifactKey: Guid(acf194967e9e35f4192b2ea3c8076d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scenes using Guid(acf194967e9e35f4192b2ea3c8076d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0219d118b1218fe95a7873e8c10e5ef5') in 0.004688 seconds 
-  Import took 0.006744 seconds .
+  path: Assets/Tower.prefab
+  artifactKey: Guid(82edf50bc8122c14487173c04c698cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower.prefab using Guid(82edf50bc8122c14487173c04c698cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55617618080257b41194f001c185285a') in 0.208483 seconds 
+  Import took 0.210426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 34.770519 seconds.
-  path: Assets/AurynSky/Desert Pack/Scenes/DemoScene_Desert.unity
-  artifactKey: Guid(a9997c5b67a6f484883b17f492c76c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scenes/DemoScene_Desert.unity using Guid(a9997c5b67a6f484883b17f492c76c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e87ebeb440ae2273de052709e8152a') in 0.009387 seconds 
-  Import took 0.011499 seconds .
+  Time since last request: 0.000164 seconds.
+  path: Assets/Tower 2.prefab
+  artifactKey: Guid(42ab4f3e8ffca6b4c8b2a5294bdd22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tower 2.prefab using Guid(42ab4f3e8ffca6b4c8b2a5294bdd22d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd8e497ecd22f0a144ccc36a777aaad') in 0.010024 seconds 
+  Import took 0.011961 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 50.567873 seconds.
-  path: Assets/AurynSky/Desert Pack/Scripts/MaterialMover.cs
-  artifactKey: Guid(b520098a09a996649a68def8b69bffe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scripts/MaterialMover.cs using Guid(b520098a09a996649a68def8b69bffe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64eba9a94c480b4f29494d821f215be') in 0.031350 seconds 
-  Import took 0.033597 seconds .
+  Time since last request: 0.000130 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(0049fa72a49c1094da757d64a11a865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(0049fa72a49c1094da757d64a11a865b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a643d3faa0f513e002ba2d0a10409585') in 0.010883 seconds 
+  Import took 0.012675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.663416 seconds.
-  path: Assets/AurynSky/Desert Pack/Scripts/ChestDemo.cs
-  artifactKey: Guid(f7cd9b064ff414042b7a28582439d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scripts/ChestDemo.cs using Guid(f7cd9b064ff414042b7a28582439d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9c8f6eb6dbc687c4ff83f811441e40') in 0.003017 seconds 
-  Import took 0.005204 seconds .
+  Time since last request: 2.138831 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f0db8238d3a437e4a87246d5d761fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f0db8238d3a437e4a87246d5d761fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34911e1b7e3b752a3c336ba9556bcc30') in 0.004894 seconds 
+  Import took 0.006737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.824040 seconds.
-  path: Assets/AurynSky/Desert Pack/Scripts/Rotator.cs
-  artifactKey: Guid(8b91f65c71b95e14589aad91b5b7b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scripts/Rotator.cs using Guid(8b91f65c71b95e14589aad91b5b7b8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b769da8f372d25c3b12fdf2116c38e') in 0.003042 seconds 
-  Import took 0.005476 seconds .
+  Time since last request: 0.005443 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f0db8238d3a437e4a87246d5d761fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f0db8238d3a437e4a87246d5d761fde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34911e1b7e3b752a3c336ba9556bcc30') in 0.001480 seconds 
+  Import took 0.003377 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006688 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.891 seconds
-Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (101ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (740ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (306ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 69.2 MB.
-System memory in use after: 69.2 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1853.
-Total: 1.968900 ms (FindLiveObjects: 0.115400 ms CreateObjectMapping: 0.034000 ms MarkObjects: 1.737000 ms  DeleteObjects: 0.081800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 256.200464 seconds.
+  Time since last request: 3.347732 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1650081c88d644860a9374031b85378') in 0.005310 seconds 
+  Import took 0.007632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.963670 seconds.
   path: Assets/Scenes/TestView.unity
   artifactKey: Guid(94440eb40e5a572408bd4fc68f1b905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestView.unity using Guid(94440eb40e5a572408bd4fc68f1b905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a12c4f46e366614ddf347516326227b') in 0.012424 seconds 
-  Import took 0.014535 seconds .
+Start importing Assets/Scenes/TestView.unity using Guid(94440eb40e5a572408bd4fc68f1b905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2753076c7db8dc12e36a98d619729e13') in 0.005114 seconds 
+  Import took 0.007083 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.012243 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Blue.prefab
-  artifactKey: Guid(7e40bbc6be241754e8d7dbdecba49ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Blue.prefab using Guid(7e40bbc6be241754e8d7dbdecba49ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4903195c79baf53e673b6e480acb7dda') in 0.086552 seconds 
-  Import took 0.088766 seconds .
+  Time since last request: 11.078447 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(2f8e0b467dea1954f96a2a588419572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(2f8e0b467dea1954f96a2a588419572c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ecba73cbe99ff6addea3751f294b35') in 0.004771 seconds 
+  Import took 0.006690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeEndW.prefab
-  artifactKey: Guid(d7d9a4600a1d69e44ada70c3f0c97316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeEndW.prefab using Guid(d7d9a4600a1d69e44ada70c3f0c97316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d84293fa02efecca2956d3e457eab') in 0.020169 seconds 
-  Import took 0.022237 seconds .
+  Time since last request: 3.836983 seconds.
+  path: Assets/Scripts/Inventory.cs
+  artifactKey: Guid(2e5199de88873164b8cf714e312ebb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory.cs using Guid(2e5199de88873164b8cf714e312ebb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509c300b36cd5125d5512a84854c1887') in 0.013723 seconds 
+  Import took 0.015804 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000424 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertChestTop.prefab
-  artifactKey: Guid(8d820dc7f30da7149ad51b7ca1b4ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertChestTop.prefab using Guid(8d820dc7f30da7149ad51b7ca1b4ab3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eeeecae733ff39e1f951cbc5449baf5') in 0.019180 seconds 
-  Import took 0.021709 seconds .
+  Time since last request: 0.415550 seconds.
+  path: Assets/Scripts/MouseDrag.cs
+  artifactKey: Guid(8d8ada404d17eb948ae94a192a5b52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseDrag.cs using Guid(8d8ada404d17eb948ae94a192a5b52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d537813c73b4817d7aa298a1575fa77') in 0.004307 seconds 
+  Import took 0.006197 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000508 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertChestBottom.prefab
-  artifactKey: Guid(2e4f501a261d7624d87354bf997a0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertChestBottom.prefab using Guid(2e4f501a261d7624d87354bf997a0d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e8856ebc98ea8cc4af6337122281a2') in 0.029839 seconds 
-  Import took 0.032075 seconds .
+  Time since last request: 0.014409 seconds.
+  path: Assets/Scripts/MouseDrag.cs
+  artifactKey: Guid(8d8ada404d17eb948ae94a192a5b52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MouseDrag.cs using Guid(8d8ada404d17eb948ae94a192a5b52dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d537813c73b4817d7aa298a1575fa77') in 0.001634 seconds 
+  Import took 0.003274 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeMain.prefab
-  artifactKey: Guid(bd4ba3ced690e024180812879530b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeMain.prefab using Guid(bd4ba3ced690e024180812879530b9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19fc0532c3028cb58c3dff69e444687a') in 0.018445 seconds 
-  Import took 0.021167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra01W.prefab
-  artifactKey: Guid(6645d5e35cec19845b6986bfd7e45747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra01W.prefab using Guid(6645d5e35cec19845b6986bfd7e45747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f1d5a5e1777022e980fe4e3fa5c6ce4') in 0.018041 seconds 
-  Import took 0.020204 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeMainW.prefab
-  artifactKey: Guid(d34098a17ef2f7648b13b5fd5524cc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeMainW.prefab using Guid(d34098a17ef2f7648b13b5fd5524cc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '821eb0a4a87ab5f041056b3791f76a39') in 0.018589 seconds 
-  Import took 0.021424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Yellow.prefab
-  artifactKey: Guid(f78d96e730277024299d695472a3c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Yellow.prefab using Guid(f78d96e730277024299d695472a3c986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8941bf4711407d1d642feb050ae10a') in 0.019599 seconds 
-  Import took 0.021941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCactus01.prefab
-  artifactKey: Guid(1c24e320d47d7fe45ab0adceb6ad319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCactus01.prefab using Guid(1c24e320d47d7fe45ab0adceb6ad319e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebde3f5b8144b7786d09ce6e3cd81dd0') in 0.018590 seconds 
-  Import took 0.020972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxlarge_Empty.prefab
-  artifactKey: Guid(37c25e9662e80a84cb820dba19e41528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxlarge_Empty.prefab using Guid(37c25e9662e80a84cb820dba19e41528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9291343c65bb89cfd9213b4ef5449a6') in 0.018597 seconds 
-  Import took 0.020953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Green.prefab
-  artifactKey: Guid(586bd0539903da04f93ceb71bbd5be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Green.prefab using Guid(586bd0539903da04f93ceb71bbd5be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ed187dd0537bf72d2e61aa53c76539') in 0.021106 seconds 
-  Import took 0.023717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertChestComplete.prefab
-  artifactKey: Guid(193348c3051462b45b30788cea17551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertChestComplete.prefab using Guid(193348c3051462b45b30788cea17551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc7b0084c080e8b38540865d26a6017') in 0.028336 seconds 
-  Import took 0.030845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000408 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra01.prefab
-  artifactKey: Guid(fd08503763d4b8c448e8f1b3bffdff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra01.prefab using Guid(fd08503763d4b8c448e8f1b3bffdff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e3d2b7119da913c3300beaf44f10dd') in 0.018348 seconds 
-  Import took 0.020753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Blue.prefab
-  artifactKey: Guid(8235ded309c9d5a47a318e3f06854a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Blue.prefab using Guid(8235ded309c9d5a47a318e3f06854a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983d11b8d999759c8c150038b7771f21') in 0.019055 seconds 
-  Import took 0.021450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra02.prefab
-  artifactKey: Guid(4a6f1bcc96a69fb4ab984a67496aff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeExtra02.prefab using Guid(4a6f1bcc96a69fb4ab984a67496aff32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9c44ead72fa24fd8e45dd3f5c31c0b') in 0.019471 seconds 
-  Import took 0.021699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCactus02.prefab
-  artifactKey: Guid(b42196a03d96beb4d95a742d57c5f5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCactus02.prefab using Guid(b42196a03d96beb4d95a742d57c5f5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79848e978b169ed87a370d5a3e121df5') in 0.018103 seconds 
-  Import took 0.020146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Red.prefab
-  artifactKey: Guid(c6687ed4632e8724b838eb54d9604123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Red.prefab using Guid(c6687ed4632e8724b838eb54d9604123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd615512307f3e13458c36a00b7e2b6d5') in 0.019139 seconds 
-  Import took 0.021396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCoin.prefab
-  artifactKey: Guid(91aca04e404ce8540814d8f15a323ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCoin.prefab using Guid(91aca04e404ce8540814d8f15a323ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981725518003cd5e00eba0aaf08bc239') in 0.018635 seconds 
-  Import took 0.020782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeEnd.prefab
-  artifactKey: Guid(82332fc56fee5f348ae0fda5965208b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBridgeEnd.prefab using Guid(82332fc56fee5f348ae0fda5965208b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a81a4de02d0f749ab14c7a413c863f8') in 0.018483 seconds 
-  Import took 0.020868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxlarge_Yellow.prefab
-  artifactKey: Guid(3c22f9350bc0aa643848b4c60f6f8de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxlarge_Yellow.prefab using Guid(3c22f9350bc0aa643848b4c60f6f8de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c497e67b2e4b18068f9280ed0b86b708') in 0.019057 seconds 
-  Import took 0.021684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Green.prefab
-  artifactKey: Guid(dfa14c2859c89bc498b414cd196b10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Green.prefab using Guid(dfa14c2859c89bc498b414cd196b10c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6601c7909fb83525033b84f2f2d0d43e') in 0.018969 seconds 
-  Import took 0.021358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Red.prefab
-  artifactKey: Guid(ba885b66ec0f56f4793da51ffcc3dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxLarge_Red.prefab using Guid(ba885b66ec0f56f4793da51ffcc3dcf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd12ee3cfcef912d650e138bbc301909') in 0.020154 seconds 
-  Import took 0.022490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Empty.prefab
-  artifactKey: Guid(7741c983f1500314384ff91311ee2b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertBoxSmall_Empty.prefab using Guid(7741c983f1500314384ff91311ee2b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1e1e388c6e8b0837f4bd32dfac344c') in 0.018220 seconds 
-  Import took 0.020435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482217 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCowSkull.prefab
-  artifactKey: Guid(603180f4e14cad44f998ca8340095c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCowSkull.prefab using Guid(603180f4e14cad44f998ca8340095c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c03ec6ffb5d36cc6c1f9446da10e4fb') in 0.018329 seconds 
-  Import took 0.020628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCube01_Half.prefab
-  artifactKey: Guid(66193f0a5e06260479ae023d11f5d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCube01_Half.prefab using Guid(66193f0a5e06260479ae023d11f5d8f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604b89b58f8e0f25e7152338d440cf03') in 0.019089 seconds 
-  Import took 0.021266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCube01.prefab
-  artifactKey: Guid(9c55c3f33cde6ea4fbee11ccbd2264eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCube01.prefab using Guid(9c55c3f33cde6ea4fbee11ccbd2264eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e826fad4e348a514409eac2b4cee08b') in 0.018271 seconds 
-  Import took 0.020467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCube02.prefab
-  artifactKey: Guid(68dfdd8032876ce4396c3a6e00f03d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCube02.prefab using Guid(68dfdd8032876ce4396c3a6e00f03d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4079be35fb330602391fc3b9c678c6d') in 0.018151 seconds 
-  Import took 0.020259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertCube02half.prefab
-  artifactKey: Guid(d0d201ceb4d633a409a35850ef4919e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertCube02half.prefab using Guid(d0d201ceb4d633a409a35850ef4919e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe19e550d171334075cedecb1858db8c') in 0.018323 seconds 
-  Import took 0.020492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertGround01.prefab
-  artifactKey: Guid(3fa788c098c4af845a062e26e06baf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertGround01.prefab using Guid(3fa788c098c4af845a062e26e06baf8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c53664ada8a9b8d737bc47d32df27b') in 0.017838 seconds 
-  Import took 0.020133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016089 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertGround02.prefab
-  artifactKey: Guid(8828b445462270e4a82aae9b772ded64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertGround02.prefab using Guid(8828b445462270e4a82aae9b772ded64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a7fc9dcb8faca9481940c57b2aa8b5') in 0.018124 seconds 
-  Import took 0.020580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertGroundDirt.prefab
-  artifactKey: Guid(52a975d223714594bbc44a85bf0394a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertGroundDirt.prefab using Guid(52a975d223714594bbc44a85bf0394a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4c17e12632b734a6b0d4ebe142675e') in 0.018470 seconds 
-  Import took 0.021051 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.121997 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Desertjar01.prefab
-  artifactKey: Guid(7837a0e440c9a534ab604175ed3de3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Desertjar01.prefab using Guid(7837a0e440c9a534ab604175ed3de3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ed9ad7aa3f7bba15c36f6650d86421') in 0.018126 seconds 
-  Import took 0.020418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertJar02.prefab
-  artifactKey: Guid(8866756bb5c6102468465319bbd59d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertJar02.prefab using Guid(8866756bb5c6102468465319bbd59d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50445dbbccf4f7c2c5653021db0dee27') in 0.018463 seconds 
-  Import took 0.020597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertLadder.prefab
-  artifactKey: Guid(0763a19602566d245849607be40cd87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertLadder.prefab using Guid(0763a19602566d245849607be40cd87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62262acb09ff1dda6b5f54bb36327fa1') in 0.018403 seconds 
-  Import took 0.020530 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Desertjar01.prefab
-  artifactKey: Guid(7837a0e440c9a534ab604175ed3de3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Desertjar01.prefab using Guid(7837a0e440c9a534ab604175ed3de3a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ed9ad7aa3f7bba15c36f6650d86421') in 0.017954 seconds 
-  Import took 0.020047 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertPear.prefab
-  artifactKey: Guid(1824e02d3cc87434392e99cadad214c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertPear.prefab using Guid(1824e02d3cc87434392e99cadad214c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9908e6ee460282225588140171e146f6') in 0.018336 seconds 
-  Import took 0.020440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock01.prefab
-  artifactKey: Guid(22685b79ea15f0e48b3968158ffdb9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock01.prefab using Guid(22685b79ea15f0e48b3968158ffdb9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24119101915ab9fca2ea8a22f9f6506b') in 0.008599 seconds 
-  Import took 0.010674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Desertjar03.prefab
-  artifactKey: Guid(6e3b4822027c1df4d92572e9ddbd1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Desertjar03.prefab using Guid(6e3b4822027c1df4d92572e9ddbd1f21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0b0c33b9b872c4829cda4957f73bf3') in 0.008753 seconds 
-  Import took 0.010801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock02.prefab
-  artifactKey: Guid(b3c84e6efa50bcc4c8e8073c9f0fd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock02.prefab using Guid(b3c84e6efa50bcc4c8e8073c9f0fd143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d96cabedfc8595639185b48524fbe4b') in 0.018708 seconds 
-  Import took 0.021028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertLadderExtra.prefab
-  artifactKey: Guid(9cce68c11449fec40b58760062c80066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertLadderExtra.prefab using Guid(9cce68c11449fec40b58760062c80066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe446557f6d96567467928eff7506bb2') in 0.018011 seconds 
-  Import took 0.020149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.117387 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock03.prefab
-  artifactKey: Guid(a9bf475512efb6e42964dedf7f2f1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock03.prefab using Guid(a9bf475512efb6e42964dedf7f2f1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276c22944afd1733e2c811c24e948257') in 0.008831 seconds 
-  Import took 0.011341 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock07.prefab
-  artifactKey: Guid(59d4b7d49e248314ab4f43e47225cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock07.prefab using Guid(59d4b7d49e248314ab4f43e47225cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177ddb5fb8ab469f948685893ca42f0e') in 0.009364 seconds 
-  Import took 0.011548 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertWindow.prefab
-  artifactKey: Guid(73de47de5b43e3a4abf9244a8fe743f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertWindow.prefab using Guid(73de47de5b43e3a4abf9244a8fe743f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3a4bcc1f3abadee6afd32d8a452b00') in 0.009100 seconds 
-  Import took 0.011289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Fire.prefab
-  artifactKey: Guid(0dc45914d072c07408655ded1490cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Fire.prefab using Guid(0dc45914d072c07408655ded1490cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a998cd2fa055c440250d2beee5acbf24') in 0.037025 seconds 
-  Import took 0.039416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock04.prefab
-  artifactKey: Guid(d77c2639e12a33b4b946e2cf7bd3adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock04.prefab using Guid(d77c2639e12a33b4b946e2cf7bd3adb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17db924aead4f6048033c1031fa04d8c') in 0.008552 seconds 
-  Import took 0.011000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/SandRiverQuad .prefab
-  artifactKey: Guid(896e3356165758d4e834134fb0152e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/SandRiverQuad .prefab using Guid(896e3356165758d4e834134fb0152e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1267d4fbd3db33c67b6c273f6f69f') in 0.012271 seconds 
-  Import took 0.014476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Smoke.prefab
-  artifactKey: Guid(100b9cf81ef34454887508775f78ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Smoke.prefab using Guid(100b9cf81ef34454887508775f78ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ab7555970d014bdbc55515d868f4de') in 0.009745 seconds 
-  Import took 0.012129 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/SandWaterFall.prefab
-  artifactKey: Guid(941aaf2eb8580574e958670dfbaceaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/SandWaterFall.prefab using Guid(941aaf2eb8580574e958670dfbaceaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0387320916a2b0b2c7d61c164b18fba6') in 0.008571 seconds 
-  Import took 0.010696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock05.prefab
-  artifactKey: Guid(0b11f3e3598030a4cad53cc4f20630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock05.prefab using Guid(0b11f3e3598030a4cad53cc4f20630b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3c44a01c0acecc83032e8216e8ee37') in 0.008373 seconds 
-  Import took 0.010470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock06.prefab
-  artifactKey: Guid(d88f347f23f5dd94daad87c7c0cd005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock06.prefab using Guid(d88f347f23f5dd94daad87c7c0cd005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9382874ffc275fcd8cdf1552ec746948') in 0.008958 seconds 
-  Import took 0.011296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1287.626758 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE
-  artifactKey: Guid(a7107cbb918b11a4cbc75add70c204bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE using Guid(a7107cbb918b11a4cbc75add70c204bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4735522800252a03291884893ed3f52c') in 0.003254 seconds 
-  Import took 0.006015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001071 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE
-  artifactKey: Guid(a7107cbb918b11a4cbc75add70c204bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE using Guid(a7107cbb918b11a4cbc75add70c204bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4735522800252a03291884893ed3f52c') in 0.002632 seconds 
-  Import took 0.004756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.791637 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED
-  artifactKey: Guid(1a81fe58a085800499e2553f6cd95bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED using Guid(1a81fe58a085800499e2553f6cd95bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab652b2d019f55ed4baae45e718f54c9') in 0.003063 seconds 
-  Import took 0.005321 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.777858 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertBannerHolder_Red.prefab
-  artifactKey: Guid(3ec7f26ddb4632f4596e058518efc89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertBannerHolder_Red.prefab using Guid(3ec7f26ddb4632f4596e058518efc89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4215d888692dece7e3cb105bfae8eaa3') in 0.030105 seconds 
-  Import took 0.032687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertCastle_Red.prefab
-  artifactKey: Guid(4fbe211c78217ba4787eeda865ce00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertCastle_Red.prefab using Guid(4fbe211c78217ba4787eeda865ce00e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46a5a3d638063fbc2d5fde2eadba407') in 0.032485 seconds 
-  Import took 0.034702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertTower_Red.prefab
-  artifactKey: Guid(1e33baa745acb3240be70da0df7523c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertTower_Red.prefab using Guid(1e33baa745acb3240be70da0df7523c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bcf70af0659f5990e4036ddabae4f5') in 0.022268 seconds 
-  Import took 0.024674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000412 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertDoorRight_Red.prefab
-  artifactKey: Guid(dce79b6a9f4be444dbdd7c0045c6f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertDoorRight_Red.prefab using Guid(dce79b6a9f4be444dbdd7c0045c6f2fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99d53862036dc0369df35232b228a7b') in 0.022918 seconds 
-  Import took 0.025395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertDoorLeft_Red.prefab
-  artifactKey: Guid(20654175d21ca44419d11ba4dda0c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertDoorLeft_Red.prefab using Guid(20654175d21ca44419d11ba4dda0c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b84790724af85764df4b3af94c9563') in 0.018583 seconds 
-  Import took 0.020724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertFlag_Red.prefab
-  artifactKey: Guid(ccac12a2e6b66794abbf6271a4045ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertFlag_Red.prefab using Guid(ccac12a2e6b66794abbf6271a4045ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f0256faadbbeb5afa79e37cb03b813') in 0.020185 seconds 
-  Import took 0.022695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertBrazzier_Red.prefab
-  artifactKey: Guid(6ff5b40e1b370ce45aa41f0f2596643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs RED/DesertBrazzier_Red.prefab using Guid(6ff5b40e1b370ce45aa41f0f2596643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02734185e342c8c00d29d422dfd80d7') in 0.019901 seconds 
-  Import took 0.022253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.757095 seconds.
-  path: Assets/AurynSky/Desert Pack
-  artifactKey: Guid(cfa56df0add976c41b454871b6744b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack using Guid(cfa56df0add976c41b454871b6744b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bec61cf9d075468faac438ddbfd945') in 0.003088 seconds 
-  Import took 0.005460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000869 seconds.
-  path: Assets/AurynSky/Desert Pack
-  artifactKey: Guid(cfa56df0add976c41b454871b6744b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack using Guid(cfa56df0add976c41b454871b6744b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bec61cf9d075468faac438ddbfd945') in 0.002577 seconds 
-  Import took 0.005016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.216527 seconds.
-  path: Assets/AurynSky/Desert Pack/Models
-  artifactKey: Guid(3cc52d8cf5c24c24e8c7af1db47a3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models using Guid(3cc52d8cf5c24c24e8c7af1db47a3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac30873e3286658a43d9512a094f932') in 0.003582 seconds 
-  Import took 0.006386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003382 seconds.
-  path: Assets/AurynSky/Desert Pack/Models
-  artifactKey: Guid(3cc52d8cf5c24c24e8c7af1db47a3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models using Guid(3cc52d8cf5c24c24e8c7af1db47a3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac30873e3286658a43d9512a094f932') in 0.003037 seconds 
-  Import took 0.005419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073037 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBanner.fbx
-  artifactKey: Guid(f5d62ac98096bf44c8010ca8a81b671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBanner.fbx using Guid(f5d62ac98096bf44c8010ca8a81b671d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce2dc8c7165549e4b3407a111ece18d') in 0.115543 seconds 
-  Import took 0.118062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra02.fbx
-  artifactKey: Guid(186711f7f2f889e4e912f8631ca82660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra02.fbx using Guid(186711f7f2f889e4e912f8631ca82660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0acfd29cf278e9a64dc9554aa4a642') in 0.015930 seconds 
-  Import took 0.018459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000458 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeMain.fbx
-  artifactKey: Guid(4c2a8b84929c5c94f98335ecab21fa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeMain.fbx using Guid(4c2a8b84929c5c94f98335ecab21fa8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0d78565aec5eddae98d3376b307090') in 0.014469 seconds 
-  Import took 0.016907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxFillerBlue.fbx
-  artifactKey: Guid(50485a96d556be84e9ff165441c6da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxFillerBlue.fbx using Guid(50485a96d556be84e9ff165441c6da6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92b0786574ef51385274babc2533617') in 0.015341 seconds 
-  Import took 0.017892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxSmall.fbx
-  artifactKey: Guid(8c197dc12c50d284198e9b2ef331f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxSmall.fbx using Guid(8c197dc12c50d284198e9b2ef331f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4a7f5322be12bc1a38acd5fc1e595c') in 0.014468 seconds 
-  Import took 0.016529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCastle.fbx
-  artifactKey: Guid(37f7476af8f447b42b3d4beef9b2c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCastle.fbx using Guid(37f7476af8f447b42b3d4beef9b2c469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac0a0b32fa8a5b6a485f66c15420b9') in 0.015212 seconds 
-  Import took 0.017558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertChestBottom.fbx
-  artifactKey: Guid(6e0fc5290fb768a42a12049779619973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertChestBottom.fbx using Guid(6e0fc5290fb768a42a12049779619973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70d19517c15d8db78e38c11fcebb7b9') in 0.014572 seconds 
-  Import took 0.017193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCactus02.fbx
-  artifactKey: Guid(5091909aabc8480429db3a0419f90edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCactus02.fbx using Guid(5091909aabc8480429db3a0419f90edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec108f99fc5e449ff3bf2052651c03c1') in 0.014044 seconds 
-  Import took 0.016455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCube01.fbx
-  artifactKey: Guid(e87b7f3bcc48cc2478719e98aec0e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCube01.fbx using Guid(e87b7f3bcc48cc2478719e98aec0e068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc65d1036ba6836a503c80ca8eb03e0') in 0.014264 seconds 
-  Import took 0.016725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCactus01.fbx
-  artifactKey: Guid(031fb6e21f9df124ab8d5cfc69019ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCactus01.fbx using Guid(031fb6e21f9df124ab8d5cfc69019ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '985dcbf7316a9f97a2a8d1e657aafc8e') in 0.015164 seconds 
-  Import took 0.017957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCube02.fbx
-  artifactKey: Guid(615f8e2d72a80ae43bd78d830b3b9e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCube02.fbx using Guid(615f8e2d72a80ae43bd78d830b3b9e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef91dd62d20706df191a8f81f1021171') in 0.015689 seconds 
-  Import took 0.018087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxlarge.fbx
-  artifactKey: Guid(2b4b51f609cfb024ba0f1ffc36943c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxlarge.fbx using Guid(2b4b51f609cfb024ba0f1ffc36943c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b7f6f23c43f5d38c6d27c75399c1a1') in 0.015050 seconds 
-  Import took 0.017192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra01.fbx
-  artifactKey: Guid(bdc69c8dbb9638147808b023bec5fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra01.fbx using Guid(bdc69c8dbb9638147808b023bec5fc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84ae60876a0dfd89e636ace12eacb68b') in 0.016309 seconds 
-  Import took 0.018608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCowSkull.fbx
-  artifactKey: Guid(c5e27c7ced043cd4780b64d9de601725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCowSkull.fbx using Guid(c5e27c7ced043cd4780b64d9de601725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcbafaf37bb04cc5701b43b3c158dd') in 0.015343 seconds 
-  Import took 0.018650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertChestTop.fbx
-  artifactKey: Guid(a3597c53140417c4386fb9e37fbd5e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertChestTop.fbx using Guid(a3597c53140417c4386fb9e37fbd5e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dabb5e4491635c1a0c54855217eec2') in 0.014519 seconds 
-  Import took 0.016751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra01W.fbx
-  artifactKey: Guid(9130f02e21e18bf47b7a857a08b3c888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeExtra01W.fbx using Guid(9130f02e21e18bf47b7a857a08b3c888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c85aed465acba720e113c1e1cda90f0') in 0.014337 seconds 
-  Import took 0.016554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000353 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeEnd.fbx
-  artifactKey: Guid(d49aa43d5b164ec4fa495ffd1a70c5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeEnd.fbx using Guid(d49aa43d5b164ec4fa495ffd1a70c5de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4f9907fe3a750d106f64a3b2131960') in 0.015019 seconds 
-  Import took 0.017381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeEndW.fbx
-  artifactKey: Guid(d189f7a9202a7ec45ac87cf77628ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeEndW.fbx using Guid(d189f7a9202a7ec45ac87cf77628ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f08aeae6ca702245937780142e28dc') in 0.015135 seconds 
-  Import took 0.017248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxFillerYellow.fbx
-  artifactKey: Guid(080d60a23c0be1a47a8bc99699ba4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxFillerYellow.fbx using Guid(080d60a23c0be1a47a8bc99699ba4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55263a814997781676bb9bee012feb1') in 0.014934 seconds 
-  Import took 0.017115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBridgeMainW.fbx
-  artifactKey: Guid(7ca90f36f8e7df744bff0f53725e5f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBridgeMainW.fbx using Guid(7ca90f36f8e7df744bff0f53725e5f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cffa0570a969bc8176746db3431bb5') in 0.013932 seconds 
-  Import took 0.016315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000357 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertCoin.fbx
-  artifactKey: Guid(088b815a15b316142935fe8990fee648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertCoin.fbx using Guid(088b815a15b316142935fe8990fee648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db2553182c6fe90f4acbe07542e6776') in 0.013973 seconds 
-  Import took 0.016265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBrazzier.fbx
-  artifactKey: Guid(0f9ea924c73a7ac4b89487d03fc3c794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBrazzier.fbx using Guid(0f9ea924c73a7ac4b89487d03fc3c794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63b4af5fa4ef3cd261b1c8ae873fc174') in 0.014931 seconds 
-  Import took 0.017155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxFillerRed.fbx
-  artifactKey: Guid(af710ddf6d43ecd48bcbc7ca8ddffe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxFillerRed.fbx using Guid(af710ddf6d43ecd48bcbc7ca8ddffe3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e764381d1a3d7da5ffea6f68d0c7b025') in 0.014901 seconds 
-  Import took 0.016953 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBoxFillerGreen.fbx
-  artifactKey: Guid(cca41beb45acc3944bd4fd10013102c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBoxFillerGreen.fbx using Guid(cca41beb45acc3944bd4fd10013102c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134d19f70113894c325d6fc3c5c48dd5') in 0.014542 seconds 
-  Import took 0.016602 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertBannerHolder.fbx
-  artifactKey: Guid(98302ede6a6e2ae4081eb04a2073598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertBannerHolder.fbx using Guid(98302ede6a6e2ae4081eb04a2073598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3da4bdc503c08c6be82a588621a467c') in 0.014505 seconds 
-  Import took 0.016622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.198447 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs
-  artifactKey: Guid(707d9cb3b09ad6540a7bf99ae7b84bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs using Guid(707d9cb3b09ad6540a7bf99ae7b84bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3457aeaddcb52df5eaa92ddfc311f3') in 0.002853 seconds 
-  Import took 0.005197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000977 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs
-  artifactKey: Guid(707d9cb3b09ad6540a7bf99ae7b84bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs using Guid(707d9cb3b09ad6540a7bf99ae7b84bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3457aeaddcb52df5eaa92ddfc311f3') in 0.002635 seconds 
-  Import took 0.004962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.249251 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertBannerHolder_Blue.prefab
-  artifactKey: Guid(ed3d3f151c89c344d9072cec0e46f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertBannerHolder_Blue.prefab using Guid(ed3d3f151c89c344d9072cec0e46f0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e3c04407673698ff634ae26d1803f0') in 0.020162 seconds 
-  Import took 0.022598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertDoorRight_Blue.prefab
-  artifactKey: Guid(50baa97b843300c43b361b34687104de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertDoorRight_Blue.prefab using Guid(50baa97b843300c43b361b34687104de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dd84aaac856ab1daa79704cc254ef3') in 0.018237 seconds 
-  Import took 0.020428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertFlag_Blue.prefab
-  artifactKey: Guid(0c7a6209e7596654fb222a2765acd73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertFlag_Blue.prefab using Guid(0c7a6209e7596654fb222a2765acd73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c44853c64b51f31559f9748342729e5') in 0.010229 seconds 
-  Import took 0.012351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertCastle_Blue.prefab
-  artifactKey: Guid(699289c87c215de47a357b833d76a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertCastle_Blue.prefab using Guid(699289c87c215de47a357b833d76a431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea22a798a7d1e2fcf3f781f620bb7da') in 0.021106 seconds 
-  Import took 0.023372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertDoorLeft_Blue.prefab
-  artifactKey: Guid(20695df1f6871444aa5c18b9de1265fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertDoorLeft_Blue.prefab using Guid(20695df1f6871444aa5c18b9de1265fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d4f829e03ee20a232ebeb32178ae8d') in 0.019269 seconds 
-  Import took 0.021588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertTower_Blue.prefab
-  artifactKey: Guid(28ce22920feff1844b50e113bdb9d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertTower_Blue.prefab using Guid(28ce22920feff1844b50e113bdb9d126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2c150b62ced6ac463f93fa2efe45ad') in 0.031940 seconds 
-  Import took 0.034270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertBrazzier_Blue.prefab
-  artifactKey: Guid(594879f1ae3fc4343a634a47b4cb96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/Prefabs BLUE/DesertBrazzier_Blue.prefab using Guid(594879f1ae3fc4343a634a47b4cb96ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c807b55ca41c82e2204807fbb9acb9') in 0.020432 seconds 
-  Import took 0.022800 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1050.713463 seconds.
-  path: Assets/AurynSky/Desert Pack/Scenes/InventoryScene_Desert.unity
-  artifactKey: Guid(3d407d3fad738d44ab9cd444819bba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Scenes/InventoryScene_Desert.unity using Guid(3d407d3fad738d44ab9cd444819bba45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56db5d69d4e9bb953bffd2c5075334f') in 0.004037 seconds 
-  Import took 0.006779 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.703842 seconds.
-  path: Assets/Scenes/SampleScene/NavMesh-navMesh Surface.asset
-  artifactKey: Guid(777d7ac29ab5c3a4e821ec809b530b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene/NavMesh-navMesh Surface.asset using Guid(777d7ac29ab5c3a4e821ec809b530b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc008f40681018e0f902975a55b0509') in 0.006806 seconds 
-  Import took 0.009058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.236590 seconds.
-  path: Assets/Scenes/TestView.unity
-  artifactKey: Guid(94440eb40e5a572408bd4fc68f1b905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/TestView.unity using Guid(94440eb40e5a572408bd4fc68f1b905c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10063bc2bcf70d52f1afd03c0612f42') in 0.002884 seconds 
-  Import took 0.005199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.709379 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/ColorPaletteBLUE.mat
-  artifactKey: Guid(1ec2e18e91ff6354baa4f9df6999904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/ColorPaletteBLUE.mat using Guid(1ec2e18e91ff6354baa4f9df6999904a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc0e2651b06fe50a8954dedd6b3f57a') in 0.065171 seconds 
-  Import took 0.067639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/CubeParticlesDesert.mat
-  artifactKey: Guid(1d13699a40edd244080be7667d805d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/CubeParticlesDesert.mat using Guid(1d13699a40edd244080be7667d805d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1faf68be0f696a3400ad79f0e4be935') in 0.010679 seconds 
-  Import took 0.012947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/ColorPaletteShowCase.mat
-  artifactKey: Guid(adddff3fab177f74c81ad7ac2f724ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/ColorPaletteShowCase.mat using Guid(adddff3fab177f74c81ad7ac2f724ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d182098064d403e061d342c208b70d5') in 0.009884 seconds 
-  Import took 0.012252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/QuickSandMaterial.mat
-  artifactKey: Guid(4c0e0ffe6f0c211489df70f6bf4510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/QuickSandMaterial.mat using Guid(4c0e0ffe6f0c211489df70f6bf4510c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce857d720850e08308893ab10c60b1d') in 0.018544 seconds 
-  Import took 0.020740 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/ColorPaletteNOTEAM.mat
-  artifactKey: Guid(81f52d79120604d4fb0609b14e9ffe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/ColorPaletteNOTEAM.mat using Guid(81f52d79120604d4fb0609b14e9ffe15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7894fcaaf594c29c885a231643154d') in 0.039517 seconds 
-  Import took 0.041793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/AurynSky/Desert Pack/Materials/ColorPaletteRED.mat
-  artifactKey: Guid(a68b38832a101144bb4fd9a1aa0f1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Materials/ColorPaletteRED.mat using Guid(a68b38832a101144bb4fd9a1aa0f1425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42d6747860d9ae2b7702e0447bd3e3') in 0.018135 seconds 
-  Import took 0.020352 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.136506 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/CubeParticleDesert.psd
-  artifactKey: Guid(2f923415399648e45ae824a6d4304682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/CubeParticleDesert.psd using Guid(2f923415399648e45ae824a6d4304682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309a2afc1d00371452f6eaa4a68c824') in 0.020381 seconds 
-  Import took 0.022954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005426 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/CubeParticleDesert.psd
-  artifactKey: Guid(2f923415399648e45ae824a6d4304682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/CubeParticleDesert.psd using Guid(2f923415399648e45ae824a6d4304682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c309a2afc1d00371452f6eaa4a68c824') in 0.006745 seconds 
-  Import took 0.008990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.144912 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertDoorLeft.fbx
-  artifactKey: Guid(bbca20c143b76c64e8cc14d761cff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertDoorLeft.fbx using Guid(bbca20c143b76c64e8cc14d761cff1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041ea6f94b31e722fb29f223f4b9a7f1') in 0.015776 seconds 
-  Import took 0.018101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertDoorRight.fbx
-  artifactKey: Guid(2ecf61b24ed19d54a917c84ef9d9872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertDoorRight.fbx using Guid(2ecf61b24ed19d54a917c84ef9d9872f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336209d6ad5de1ad3fde35ab08649145') in 0.014830 seconds 
-  Import took 0.017062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102290 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertFlag.fbx
-  artifactKey: Guid(ec75c215f09cbdc4facd7f5cd3e4a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertFlag.fbx using Guid(ec75c215f09cbdc4facd7f5cd3e4a909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21420c94cca7847915fc8d839be4339c') in 0.020584 seconds 
-  Import took 0.022945 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertGround01.fbx
-  artifactKey: Guid(516c2d64e347c524f8bff38c1edbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertGround01.fbx using Guid(516c2d64e347c524f8bff38c1edbd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125cea78b79e848717cd52768885d264') in 0.015440 seconds 
-  Import took 0.017808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.671431 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertGround02.fbx
-  artifactKey: Guid(9a904a45434ee2648b5c6cfcfc7ba3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertGround02.fbx using Guid(9a904a45434ee2648b5c6cfcfc7ba3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571554a2135e41c54601a13704fe3636') in 0.015411 seconds 
-  Import took 0.018003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/Desertjar2.fbx
-  artifactKey: Guid(4d68ba28d3bbede4383ecdcedebd71a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/Desertjar2.fbx using Guid(4d68ba28d3bbede4383ecdcedebd71a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871543bdcb0ea17f46b26253f52688f3') in 0.015471 seconds 
-  Import took 0.017837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertGroundDirt.fbx
-  artifactKey: Guid(91f6777246242d04a87e745681690b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertGroundDirt.fbx using Guid(91f6777246242d04a87e745681690b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40080eaefdea474b14fee341f311c58') in 0.014273 seconds 
-  Import took 0.016457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000378 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/Desertjar1.fbx
-  artifactKey: Guid(6ab1acb58cba3954ca1a9e9a6ba73926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/Desertjar1.fbx using Guid(6ab1acb58cba3954ca1a9e9a6ba73926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729fd9ce844b9e01e8fff760b8515b06') in 0.014652 seconds 
-  Import took 0.016954 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002138 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/Desertjar3.fbx
-  artifactKey: Guid(daa2d0efab8b8354ba3bf880e1fa81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/Desertjar3.fbx using Guid(daa2d0efab8b8354ba3bf880e1fa81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43671cc8cec58e4fae32afc51d45d4fc') in 0.015210 seconds 
-  Import took 0.017776 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertLadder.fbx
-  artifactKey: Guid(33b076beca5cd8446bb9f98722781ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertLadder.fbx using Guid(33b076beca5cd8446bb9f98722781ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0d64389184441879a17585d0a156b') in 0.014412 seconds 
-  Import took 0.016660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.204959 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertLadderExtra.fbx
-  artifactKey: Guid(94cffdb0110c145438f4d7044fdfbcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertLadderExtra.fbx using Guid(94cffdb0110c145438f4d7044fdfbcfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaacc4e59d59d6b9993347e7aa7bc09e') in 0.014289 seconds 
-  Import took 0.016611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock02.fbx
-  artifactKey: Guid(9f666b9d9c9ceca4e8da8117e06ec7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock02.fbx using Guid(9f666b9d9c9ceca4e8da8117e06ec7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf532fc114d1cc629c122261cde3281e') in 0.015538 seconds 
-  Import took 0.017680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock01.fbx
-  artifactKey: Guid(5658ccea96fc4064da3911322b31fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock01.fbx using Guid(5658ccea96fc4064da3911322b31fba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e1177f38b891622c74ea2ce51bd0d8') in 0.014845 seconds 
-  Import took 0.016939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertPear.fbx
-  artifactKey: Guid(59b4286292368fe4783ca427f507a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertPear.fbx using Guid(59b4286292368fe4783ca427f507a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0749c1daffe07787168746ee6a385ab') in 0.014003 seconds 
-  Import took 0.016193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock03.fbx
-  artifactKey: Guid(bc949c39139a9874a956eb6f3fd6504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock03.fbx using Guid(bc949c39139a9874a956eb6f3fd6504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '076f74ed2a0c860e1b1b7220daf68601') in 0.013905 seconds 
-  Import took 0.016105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock04.fbx
-  artifactKey: Guid(03e2c7d78ad2b584d9a979ef1ee533b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock04.fbx using Guid(03e2c7d78ad2b584d9a979ef1ee533b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6afd2b09e2215b2e8207f458d783f3f') in 0.014139 seconds 
-  Import took 0.016439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036572 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock05.fbx
-  artifactKey: Guid(54304fa2a020154468fa690871a1605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock05.fbx using Guid(54304fa2a020154468fa690871a1605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d87a602d433ec11ed8a8cd1b77bffc1') in 0.020712 seconds 
-  Import took 0.023555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock06.fbx
-  artifactKey: Guid(171bcd8e2de1a2543a75510843def2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock06.fbx using Guid(171bcd8e2de1a2543a75510843def2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4c5818685af9a743a7b330a72436b8') in 0.013730 seconds 
-  Import took 0.015802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092270 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertRock07.fbx
-  artifactKey: Guid(c7f3fb4e927a4c0488294f272988d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertRock07.fbx using Guid(c7f3fb4e927a4c0488294f272988d579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ef3e5ea0a0bae92d6352cb0d63a4f3') in 0.015200 seconds 
-  Import took 0.017649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertTower.fbx
-  artifactKey: Guid(7b48ad62c761cd34aa50ee4f14a54da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertTower.fbx using Guid(7b48ad62c761cd34aa50ee4f14a54da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83283a899226d774bc146270e60fc25') in 0.014484 seconds 
-  Import took 0.016725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AurynSky/Desert Pack/Models/DesertWindow.fbx
-  artifactKey: Guid(e8e2606076be7ac49ad4782fca602ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Models/DesertWindow.fbx using Guid(e8e2606076be7ac49ad4782fca602ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a9857a3033ee7c0d57166363a59b8c') in 0.014276 seconds 
-  Import took 0.016332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.942775 seconds.
-  path: Assets/AurynSky/Desert Pack/Prefabs/DesertRock03.prefab
-  artifactKey: Guid(a9bf475512efb6e42964dedf7f2f1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Prefabs/DesertRock03.prefab using Guid(a9bf475512efb6e42964dedf7f2f1271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324cb7b4fc951a445012c162ecd533f8') in 0.018284 seconds 
-  Import took 0.020869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 615.701138 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/ColorPaletteBLUE.png
-  artifactKey: Guid(4e40b6469fe921e4c971c9be68fd178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/ColorPaletteBLUE.png using Guid(4e40b6469fe921e4c971c9be68fd178c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f72afc9d5084bfc3541612c9163684') in 0.040517 seconds 
-  Import took 0.043400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/ColorPaletteRED.png
-  artifactKey: Guid(62beaf0e74975a74d9044d77f8dca952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/ColorPaletteRED.png using Guid(62beaf0e74975a74d9044d77f8dca952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23048c8a7fddf94bccb5d5198e158882') in 0.017118 seconds 
-  Import took 0.019216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/QuickSandMaterial.psd
-  artifactKey: Guid(62cdb6222f91a3b4fa7c1986d5d42fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/QuickSandMaterial.psd using Guid(62cdb6222f91a3b4fa7c1986d5d42fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c38b044e76a55466de798007ad7bc1') in 0.008994 seconds 
-  Import took 0.011097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/AurynSky/Desert Pack/Textures/ColorPaletteNOTEAM.png
-  artifactKey: Guid(adbe2eb4bcbe7a64a977d8c50e49b0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/Desert Pack/Textures/ColorPaletteNOTEAM.png using Guid(adbe2eb4bcbe7a64a977d8c50e49b0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4c812904c325302844e3d9ddac4c28') in 0.015598 seconds 
-  Import took 0.018521 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.271553 seconds.
-  path: Assets/Scripts/CameraDrag.cs
-  artifactKey: Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraDrag.cs using Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5550a9e55d6d97943df0149a9533d688') in 0.003705 seconds 
-  Import took 0.007534 seconds .
+  Time since last request: 1.396908 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(239743557a7ef7e4dbdf9616b6d3cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(239743557a7ef7e4dbdf9616b6d3cce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b68070aa4c05bf19bdddb33c651eee6') in 0.004526 seconds 
+  Import took 0.006580 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007164 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
-Domain Reload Profiling:
-	ReloadAssembly (928ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (752ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (234ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (309ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 2.001700 ms (FindLiveObjects: 0.146300 ms CreateObjectMapping: 0.037800 ms MarkObjects: 1.714900 ms  DeleteObjects: 0.101600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 30.986811 seconds.
-  path: Assets/Scripts/CameraDrag.cs
-  artifactKey: Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraDrag.cs using Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8ead08a4c55a29c63bdc027978eb4a') in 0.007540 seconds 
-  Import took 0.011133 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007440 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1079ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (902ms)
-			LoadAssemblies (113ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (275ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (375ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (298ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1904.
-Total: 2.038200 ms (FindLiveObjects: 0.161600 ms CreateObjectMapping: 0.035800 ms MarkObjects: 1.700700 ms  DeleteObjects: 0.139100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009887 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.001 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1001ms)
-		BeginReloadAssembly (122ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (829ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (333ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1906.
-Total: 2.139700 ms (FindLiveObjects: 0.150300 ms CreateObjectMapping: 0.040400 ms MarkObjects: 1.851600 ms  DeleteObjects: 0.096300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 40.074901 seconds.
-  path: Assets/Scripts/CameraDrag.cs
-  artifactKey: Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraDrag.cs using Guid(dcbd2f9a29dc13042a94e620ab5e624a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866352909619e5fc0d57b96fe37509d3') in 0.005744 seconds 
-  Import took 0.008077 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007915 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.973 seconds
-Domain Reload Profiling:
-	ReloadAssembly (974ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (346ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1908.
-Total: 1.997100 ms (FindLiveObjects: 0.142900 ms CreateObjectMapping: 0.032600 ms MarkObjects: 1.728000 ms  DeleteObjects: 0.092700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007687 seconds.
+Registered in 0.002943 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.003 seconds
+- Completed reload, in  0.659 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1003ms)
-		BeginReloadAssembly (107ms)
+	ReloadAssembly (659ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (842ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (272ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
+Unloading 1411 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.7 MB.
+System memory in use after: 69.7 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1910.
-Total: 1.867800 ms (FindLiveObjects: 0.132900 ms CreateObjectMapping: 0.036200 ms MarkObjects: 1.609700 ms  DeleteObjects: 0.088000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1862.
+Total: 2.554200 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.062000 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.067600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1625,428 +278,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007967 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (893ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (379ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1415 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1911.
-Total: 2.033300 ms (FindLiveObjects: 0.142300 ms CreateObjectMapping: 0.033100 ms MarkObjects: 1.770500 ms  DeleteObjects: 0.086600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.814775 seconds.
-  path: Assets/Scripts/CameraMove.cs
-  artifactKey: Guid(d6eb5e5bda6d0ed429da28a6a7774629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraMove.cs using Guid(d6eb5e5bda6d0ed429da28a6a7774629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed8bd2f29d3eaec6e9fcfee26400c8d') in 0.006089 seconds 
-  Import took 0.008975 seconds .
+  Time since last request: 363.694448 seconds.
+  path: Assets/Scripts/TowerInfo.cs
+  artifactKey: Guid(8b6b429b6f272ff4dac62457e5020aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TowerInfo.cs using Guid(8b6b429b6f272ff4dac62457e5020aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483843a4342ffc72a73e8091b74e6af9') in 0.006380 seconds 
+  Import took 0.008261 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007646 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.985 seconds
-Domain Reload Profiling:
-	ReloadAssembly (985ms)
-		BeginReloadAssembly (114ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (819ms)
-			LoadAssemblies (108ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (320ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1914.
-Total: 1.763000 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.488500 ms  DeleteObjects: 0.090100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.409403 seconds.
+  Time since last request: 3.374576 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(86ed424f7c7370642a65f89bb279bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(86ed424f7c7370642a65f89bb279bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79da6907956498679f541923a2bd8e0') in 0.004251 seconds 
+  Import took 0.006073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(86ed424f7c7370642a65f89bb279bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(86ed424f7c7370642a65f89bb279bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79da6907956498679f541923a2bd8e0') in 0.001380 seconds 
+  Import took 0.002893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.654142 seconds.
   path: Assets/Scripts/CameraMove.cs
   artifactKey: Guid(d6eb5e5bda6d0ed429da28a6a7774629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraMove.cs using Guid(d6eb5e5bda6d0ed429da28a6a7774629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa956571b934ff824e6897948415f3d') in 0.005718 seconds 
-  Import took 0.008590 seconds .
+Start importing Assets/Scripts/CameraMove.cs using Guid(d6eb5e5bda6d0ed429da28a6a7774629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a15b1d32815f6b73867ebb48647164f') in 0.004334 seconds 
+  Import took 0.006245 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007353 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.993 seconds
-Domain Reload Profiling:
-	ReloadAssembly (994ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (114ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (335ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
+Received Import Request.
+  Time since last request: 53.388674 seconds.
+  path: Assets/NavMeshComponents
+  artifactKey: Guid(498804763a09c704a82c036c8cddca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents using Guid(498804763a09c704a82c036c8cddca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386616b8a694b03902e3bec55009f1b9') in 0.005201 seconds 
+  Import took 0.006990 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1916.
-Total: 1.972700 ms (FindLiveObjects: 0.137100 ms CreateObjectMapping: 0.033000 ms MarkObjects: 1.716100 ms  DeleteObjects: 0.085800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008079 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1019ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (858ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (359ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (65ms)
-				ProcessInitializeOnLoadAttributes (280ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.7 MB.
+Received Import Request.
+  Time since last request: 1.343973 seconds.
+  path: Assets/NavMeshComponents/Scripts
+  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6e9712730c021a619fc314e213518') in 0.001468 seconds 
+  Import took 0.003389 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1918.
-Total: 2.022300 ms (FindLiveObjects: 0.121500 ms CreateObjectMapping: 0.035900 ms MarkObjects: 1.734300 ms  DeleteObjects: 0.129500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007107 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1009ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (849ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (348ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.7 MB.
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/NavMeshComponents/Scripts
+  artifactKey: Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts using Guid(ce67aa87f613246dda63a54a59c6399e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe6e9712730c021a619fc314e213518') in 0.001405 seconds 
+  Import took 0.002842 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1920.
-Total: 2.035200 ms (FindLiveObjects: 0.147800 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.740000 ms  DeleteObjects: 0.111500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007075 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.992 seconds
-Domain Reload Profiling:
-	ReloadAssembly (993ms)
-		BeginReloadAssembly (109ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (319ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.7 MB.
+Received Import Request.
+  Time since last request: 0.066530 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef
+  artifactKey: Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshComponents.asmdef using Guid(8c4dd21966739024fbd72155091d199e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a86a5f1b5a5ff5f697160eecec0158') in 0.002464 seconds 
+  Import took 0.004251 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1922.
-Total: 1.887200 ms (FindLiveObjects: 0.146800 ms CreateObjectMapping: 0.041400 ms MarkObjects: 1.615900 ms  DeleteObjects: 0.082400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007404 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
-Domain Reload Profiling:
-	ReloadAssembly (989ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (830ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (317ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1416 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.8 MB.
-System memory in use after: 86.7 MB.
+Received Import Request.
+  Time since last request: 1.795556 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+  artifactKey: Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf73c0f90bcea1a00e3015745a22d107') in 0.004352 seconds 
+  Import took 0.006295 seconds .
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1924.
-Total: 1.983900 ms (FindLiveObjects: 0.143400 ms CreateObjectMapping: 0.035400 ms MarkObjects: 1.719300 ms  DeleteObjects: 0.083300 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000986 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs
+  artifactKey: Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifierVolume.cs using Guid(35e95dc5ff2b64380880dd7ac5922847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf73c0f90bcea1a00e3015745a22d107') in 0.001416 seconds 
+  Import took 0.002848 seconds .
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 0.601975 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshSurface.cs
+  artifactKey: Guid(7a5ac11cc976e418e8d13136b07e1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshSurface.cs using Guid(7a5ac11cc976e418e8d13136b07e1f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8587cbe39c8bfd5a53d4d70c3cd5f8') in 0.004378 seconds 
+  Import took 0.006274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415047 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+  artifactKey: Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69237f1899aab3da475301ef03d404d7') in 0.004255 seconds 
+  Import took 0.006175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshModifier.cs
+  artifactKey: Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshModifier.cs using Guid(1e3fdca004f2d45fe8abbed571a8abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69237f1899aab3da475301ef03d404d7') in 0.001304 seconds 
+  Import took 0.002415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.524184 seconds.
+  path: Assets/NavMeshComponents/Scripts/NavMeshLink.cs
+  artifactKey: Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NavMeshComponents/Scripts/NavMeshLink.cs using Guid(6eeb5dc026fdf4b488bc7ae0138ab719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b3f549ae3925a9ec22bb0465adb123') in 0.004358 seconds 
+  Import took 0.006387 seconds .
+

@@ -7,28 +7,19 @@ using UnityEngine.EventSystems;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject Tower;
-    [SerializeField] GameObject Enemy;
-    [SerializeField] GameObject _enemypoint;
-    [SerializeField] GameObject _endpoint;
 
     [SerializeField] GameObject _floor;
 
+    [SerializeField] EnemyManager enemyManager;
+
+    [SerializeField] SelectControl selectControl;
+
     public float _scaleFactor = 1f;
-    public NavMeshSurface surface;
-    public NavMeshAgent agent;
-    public NavMeshPath navMeshPath;
-    Transform spawnPos;
 
     GameObject tower;
     public GameObject[] _selected;
-    public GameObject _range;
+    public GameObject _rangeGizmo; 
 
-    public bool pathAvailable;
-
-    public void BakeNav()
-    {
-        surface.BuildNavMesh();
-    }
 
     private void Awake()
     {
@@ -36,12 +27,12 @@ public class GameManager : MonoBehaviour
     }
     private void Start()
     {
-        navMeshPath = new NavMeshPath();
+
     }
 
     private void Update()
     {
-        CheckTile();
+        CheckTileUnderCursor();
         _floor.GetComponent<Renderer>().material.SetFloat("_GridScaleFactor", _scaleFactor);
         if (Input.GetMouseButtonDown(0))
         {
@@ -63,7 +54,7 @@ public class GameManager : MonoBehaviour
                         }
 
                         tower = Instantiate(Tower, new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0.5f, Mathf.Floor(hit.point.z) + 0.5f), Quaternion.identity);
-                        BakeNav();
+                        enemyManager.BakeNav();
                         
                     }
                 }
@@ -71,7 +62,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void CheckTile()
+    private void CheckTileUnderCursor()
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit = new RaycastHit();
@@ -101,45 +92,19 @@ public class GameManager : MonoBehaviour
                 }
                     
 
-                _range.transform.position = new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0f, Mathf.Floor(hit.point.z) + 0.5f);
-                _range.SetActive(true);
+                _rangeGizmo.transform.position = new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0f, Mathf.Floor(hit.point.z) + 0.5f);
+                _rangeGizmo.SetActive(true);
             }
             //else _bg.SetActive(false);
         }
     }
 
-    public void StartSpawn()
-    {
-        _enemypoint.GetComponent<NavMeshAgent>().enabled = false;
-        StartCoroutine(EnemySpawner());
-    }
-
-    IEnumerator EnemySpawner()
-    {
-        Instantiate(Enemy, _enemypoint.transform);
-        yield return new WaitForSeconds(1f);
-        StartCoroutine(EnemySpawner());
-    }
-
-    bool CalculateNewPath()
-    {
-        agent.CalculatePath(_endpoint.transform.position, navMeshPath);
-        print("New path calculated");
-        if (navMeshPath.status != NavMeshPathStatus.PathComplete)
-        {
-            return false;
-        }
-        else
-        {
-            return true;
-        }
-    }
 
     void SetResolution()
     {
         Camera cam = Camera.main;
         Rect rect = cam.rect;
-        float scaleheight = ((float)Screen.width / Screen.height) / ((float)18 / 9); // (°¡·Î / ¼¼·Î)
+        float scaleheight = ((float)Screen.width / Screen.height) / ((float)18 / 9); // (ï¿½ï¿½ï¿½ï¿½ / ï¿½ï¿½ï¿½ï¿½)
         float scalewidth = 1f / scaleheight;
         if (scaleheight < 1)
         {
