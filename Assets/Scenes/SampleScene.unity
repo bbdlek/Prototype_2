@@ -426,9 +426,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239743557a7ef7e4dbdf9616b6d3cce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Tower: {fileID: 7454545231653059525, guid: 42ab4f3e8ffca6b4c8b2a5294bdd22d9, type: 3}
+  Tower: {fileID: 7454545231653059525, guid: 82edf50bc8122c14487173c04c698cb8, type: 3}
   _floor: {fileID: 46099908}
   enemyManager: {fileID: 625576662}
+  towerManager: {fileID: 625576663}
   _scaleFactor: 1
   _selected:
   - {fileID: 1914876479}
@@ -461,9 +462,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 625576659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b68b7fbf39b7e714c90b4fc4ccad10d5, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e4b54de1a01e594c8604c2f8fb48da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  towerToSpawn: {fileID: 7454545231653059525, guid: 82edf50bc8122c14487173c04c698cb8, type: 3}
+  temporarilyPlacedTower: {fileID: 0}
+  towerSpawnPosition: {x: 0, y: 0, z: 0}
+  towerSpawnRotation: {x: 0, y: 0, z: 0, w: 0}
+  isTowerFlipped: 0
+  towerSpawned: []
 --- !u!1 &664370445
 GameObject:
   m_ObjectHideFlags: 0
@@ -775,7 +782,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &786513318
 MonoBehaviour:
   m_ObjectHideFlags: 0
