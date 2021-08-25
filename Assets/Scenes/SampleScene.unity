@@ -580,12 +580,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7428f09ea4b0ba4787aa58226717220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 8722542814687331938, guid: 0049fa72a49c1094da757d64a11a865b, type: 3}
   surface: {fileID: 664370446}
   agent: {fileID: 1477708609}
   _endpoint: {fileID: 699535271}
   _enemypoint: {fileID: 1477708607}
   pathAvailable: 1
+  CurrentEnemyList: []
+  enemyMaxCount: 0
 --- !u!114 &625576663
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,6 +599,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e4b54de1a01e594c8604c2f8fb48da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  surface: {fileID: 0}
   enemyManager: {fileID: 625576662}
   towerToSpawn: {fileID: 7454545231653059525, guid: 82edf50bc8122c14487173c04c698cb8, type: 3}
   temporarilyPlacedTower: {fileID: 0}
@@ -1993,6 +1995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1477708608}
   - component: {fileID: 1477708609}
+  - component: {fileID: 1477708610}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -2036,6 +2039,25 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &1477708610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1477708607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7428f09ea4b0ba4787aa58226717220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 664370446}
+  agent: {fileID: 1477708609}
+  _endpoint: {fileID: 699535271}
+  _enemypoint: {fileID: 0}
+  pathAvailable: 0
+  CurrentEnemyList: []
+  enemyMaxCount: 0
 --- !u!1 &1500977167
 GameObject:
   m_ObjectHideFlags: 0

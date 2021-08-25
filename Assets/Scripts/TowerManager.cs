@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.EventSystems;
 
 
@@ -18,16 +19,16 @@ public enum TowerSpawnCheck
 }
 public class TowerManager : MonoBehaviour
 {
+    public NavMeshSurface surface;
     public static readonly int MAX_TOWER_ENTITY = 20;
     public EnemyManager enemyManager;
     public GameObject towerToSpawn;
     public GameObject temporarilyPlacedTower;
-
     public List<GameObject> towerSpawned = new List<GameObject>();
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -137,7 +138,7 @@ public class TowerManager : MonoBehaviour
     public bool CheckEnemyPath()
     {
         enemyManager.BakeNav();
-        if(enemyManager.pathAvailable)
+        if(enemyManager.navMeshPath.status != NavMeshPathStatus.PathPartial)
         {
             temporarilyPlacedTower.SetActive(false);
             enemyManager.BakeNav();
