@@ -26,9 +26,9 @@ public class Enemy : MonoBehaviour
     {
         currentHP = maxHP;
         anim = this.GetComponent<Animator>();
-        GameManagerObject = GameObject.Find("GameManager"); //k
+        GameManagerObject = GameObject.Find("SpawnPoint"); //k
         target = GameObject.Find("EndPoint");
-        Player = GameObject.Find("Player");
+        Player = GameObject.Find("Player1");
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(target.transform.position);
 
@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour
         if (currentHP <= 0)
         {
             isDie = true;
+            GameManagerObject.GetComponent<EnemyManager>().CurrentEnemyList.Remove(gameObject);
             Destroy(gameObject);
         }
     }

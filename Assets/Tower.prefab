@@ -458,8 +458,7 @@ GameObject:
   m_Component:
   - component: {fileID: 399147712765663294}
   - component: {fileID: -2257781446758517098}
-  - component: {fileID: 5448752594561825077}
-  - component: {fileID: 5044801384962708804}
+  - component: {fileID: -5740845677550094393}
   m_Layer: 11
   m_Name: Tower
   m_TagString: Tower
@@ -501,7 +500,7 @@ MonoBehaviour:
   m_Area: 1
   m_IgnoreFromBuild: 0
   m_AffectedAgents: ffffffff
---- !u!114 &5448752594561825077
+--- !u!114 &-5740845677550094393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -510,24 +509,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7454545231653059525}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce8d6979f42bb7b47843ad9a328afc55, type: 3}
+  m_Script: {fileID: 11500000, guid: d304f31c7496bb141976c192e65ce54c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _myposition: []
+  numberOfBlocks: 4
+  TowerHeads: []
   isTemp: 1
---- !u!114 &5044801384962708804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7454545231653059525}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b6b429b6f272ff4dac62457e5020aa5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _myposition:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: -1}
-  - {x: 1, y: 0, z: 0}
-  - {x: 2, y: 0, z: 0}
+  BulletPrefab: {fileID: 0}
+  bulletSpeed: 10
+  bulletDamage: 1
+  attackRate: 0.5
+  attackRange: 3.5

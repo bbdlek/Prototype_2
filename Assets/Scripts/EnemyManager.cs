@@ -27,14 +27,14 @@ public class EnemyManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CurrentEnemyList = new List<GameObject>();
+        CurrentEnemyList = new List<GameObject>(); //현재 생성되어있는 적 정보 참고용 리스트
         navMeshPath = new UnityEngine.AI.NavMeshPath();
     }
 
     public void StartWave(Wave wave)
     {
         currentWave = wave;
-        StartSpawn();
+        StartSpawn(); //currentWave의 웨이브 정보에 기반해서 웨이브 스타트
     }
 
     // Update is called once per frame
@@ -48,11 +48,11 @@ public class EnemyManager : MonoBehaviour
         surface.BuildNavMesh();
     }
 
-    bool CalculateNewPath()
+    public bool CalculateNewPath()
     {
         agent.CalculatePath(_endpoint.transform.position, navMeshPath);
         print("New path calculated");
-        if (navMeshPath.status != UnityEngine.AI.NavMeshPathStatus.PathComplete)
+        if (navMeshPath.status ==  NavMeshPathStatus.PathPartial) 
         {
             return false;
         }
@@ -64,6 +64,7 @@ public class EnemyManager : MonoBehaviour
 
     public void StartSpawn()
     {
+        BakeNav();
         _enemypoint.GetComponent<NavMeshAgent>().enabled = false;
         StartCoroutine(EnemySpawner());
     }
@@ -73,10 +74,10 @@ public class EnemyManager : MonoBehaviour
         int enemyIndex = Random.Range(0, currentWave.enemyPrefabs.Length);
         GameObject clone = Instantiate(currentWave.enemyPrefabs[enemyIndex], _enemypoint.transform);
         CurrentSpawnenemy = clone;
-        enemySpawnCount++; //k
-        CurrentEnemyList.Add(CurrentSpawnenemy); //k
-        yield return new WaitForSeconds(2f);
-        if (enemySpawnCount < enemyMaxCount) StartCoroutine(EnemySpawner());
+        enemySpawnCount++; //생존유무와 상관없이 생성된 적 카운트
+        CurrentEnemyList.Add(CurrentSpawnenemy); 
+        yield return new WaitForSeconds(currentWave.spawnTime); //생성 빈도 
+        if (enemySpawnCount < currentWave.maxEnemyCount) StartCoroutine(EnemySpawner());
     }
 
 

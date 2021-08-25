@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
         this.target = target;
         this.bulletDamage = bulletDamage;
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other) //적과 충돌시 상호작용
     {
         if (!other.CompareTag("Enemy")) return;
         if(other.transform != target) return;
@@ -36,13 +36,13 @@ public class Bullet : MonoBehaviour
     {
         if (target != null)
         {
-            
+            //조준방향으로 발사
             transform.LookAt(new Vector3(target.position.x,0.5f,target.position.z));
-            this.transform.position = Vector3.MoveTowards(this.gameObject.transform.position, target.position, bulletSpeed * Time.deltaTime);
+            this.transform.position = Vector3.MoveTowards(this.transform.position, target.position, bulletSpeed * Time.deltaTime);
         } 
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); //적 소멸시 자체 파괴
         }
     }
 }

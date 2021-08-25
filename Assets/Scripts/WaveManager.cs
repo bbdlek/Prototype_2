@@ -21,7 +21,7 @@ public class WaveManager : MonoBehaviour
 
     public void StartWave()
     {
-        if(enemySpawner.CurrentEnemyList.Count ==0 && currentWaveIndex < waves.Length-1)
+        if(enemySpawner.CurrentEnemyList.Count ==0 && currentWaveIndex < waves.Length-1) //웨이브 진행
         {
             currentWaveIndex++;
             enemySpawner.StartWave(waves[currentWaveIndex]);
@@ -31,12 +31,14 @@ public class WaveManager : MonoBehaviour
    
     void Start()
     {
-        enemySpawner = this.GetComponent<EnemyManager>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.S)) StartWave(); //웨이브 스타트
+
+
     }
 }

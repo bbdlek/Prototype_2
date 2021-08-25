@@ -19,6 +19,7 @@ public enum TowerSpawnCheck
 }
 public class TowerManager : MonoBehaviour
 {
+    [SerializeField] GameObject cannotBuildMessage;
     public NavMeshSurface surface;
     public static readonly int MAX_TOWER_ENTITY = 20;
     public EnemyManager enemyManager;
@@ -43,7 +44,7 @@ public class TowerManager : MonoBehaviour
                 temporarilyPlacedTower.transform.position = new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0.5f, Mathf.Floor(hit.point.z) + 0.5f);
                 if(CheckTowerSpawnable() != TowerSpawnCheck.OK)
                 {
-                    // 설치 불가능을 나타내는 효과
+                    StartCoroutine(CannotBuildPopUp()); // 설치 불가능을 나타내는 효과
                 }
             }
         }
@@ -138,8 +139,9 @@ public class TowerManager : MonoBehaviour
     public bool CheckEnemyPath()
     {
         enemyManager.BakeNav();
-        if(enemyManager.navMeshPath.status != NavMeshPathStatus.PathPartial)
+        if(enemyManager.CalculateNewPath())
         {
+
             temporarilyPlacedTower.SetActive(false);
             enemyManager.BakeNav();
             temporarilyPlacedTower.SetActive(true);
@@ -174,7 +176,7 @@ public class TowerManager : MonoBehaviour
 
                     }
                 }
-                temporarilyPlacedTower.GetComponent<Tower>().ConfirmTowerPosition();
+                temporarilyPlacedTower.GetComponent<TowerInfo>().ConfirmTowerPosition();
                 enemyManager.BakeNav();
                 towerSpawned.Add(temporarilyPlacedTower);
                 temporarilyPlacedTower = null;
@@ -212,5 +214,14 @@ public class TowerManager : MonoBehaviour
             temporarilyPlacedTower = null;
         }
     }
-    
+
+    IEnumerator CannotBuildPopUp() //k
+    {
+        cannotBuildMessage.SetActive(true);
+        yield return new WaitForSeconds(1.3f);
+        cannotBuildMessage.SetActive(false);
+
+
+    }
+
 }
