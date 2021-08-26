@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour
     
 
     public GameObject GameManagerObject;
-
+   
 
     
 
@@ -31,14 +31,20 @@ public class Enemy : MonoBehaviour
     {
         currentHP = maxHP;
         anim = this.GetComponent<Animator>();
-        GameManagerObject = GameObject.Find("SpawnPoint"); //k
+        GameManagerObject = GameObject.Find("SpawnPoint"); 
         target = GameObject.Find("EndPoint");
         Player = GameObject.Find("Player1");
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(target.transform.position);
+       
 
-        
+
     }
+
+    
+
+
+
     private void Update()
     {
         AgentStuckAvoid();
