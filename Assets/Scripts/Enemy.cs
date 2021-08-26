@@ -36,7 +36,8 @@ public class Enemy : MonoBehaviour
         Player = GameObject.Find("Player1");
         agent = GetComponent<NavMeshAgent>();
         agent.SetDestination(target.transform.position);
-       
+        agent.speed = moveSpeed;
+
 
 
     }
