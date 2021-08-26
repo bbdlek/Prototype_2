@@ -35,15 +35,14 @@ public class TowerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if(temporarilyPlacedTower != null && Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
+        if (temporarilyPlacedTower != null && Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit = new RaycastHit();
             if (Physics.Raycast(ray, out hit, 100f, 1 << LayerMask.NameToLayer("Floor")))
             {
                 temporarilyPlacedTower.transform.position = new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0.5f, Mathf.Floor(hit.point.z) + 0.5f);
-                if(CheckTowerSpawnable() != TowerSpawnCheck.OK)
+                if (CheckTowerSpawnable() != TowerSpawnCheck.OK)
                 {
                     StartCoroutine(CannotBuildPopUp()); // 설치 불가능을 나타내는 효과
                 }
@@ -60,8 +59,8 @@ public class TowerManager : MonoBehaviour
         {
             // 타워 UI 띄우기
         }
-    }
 
+    }
     public void PlaceTowerTemp(){
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit = new RaycastHit();
@@ -74,7 +73,9 @@ public class TowerManager : MonoBehaviour
 
     public GameObject InstantiateTempTower(GameObject tower, Vector3 position)
     {
-        temporarilyPlacedTower = Instantiate(tower, position, Quaternion.identity);
+        if (tower == null)
+            temporarilyPlacedTower = null; 
+        else temporarilyPlacedTower = Instantiate(tower, position, Quaternion.identity);
         return temporarilyPlacedTower;
     }
 
