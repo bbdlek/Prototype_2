@@ -101,11 +101,15 @@ public class TowerHead : MonoBehaviour
         {
         SpawnPoint = GameObject.Find("SpawnPoint");
         this.enemyList = SpawnPoint.GetComponent<EnemyManager>().CurrentEnemyList;
-        ChangeState(WeaponState.SearchTarget);
         }
 
-        // Update is called once per frame
-        void Update()
+    private void OnEnable()
+    {
+        ChangeState(WeaponState.SearchTarget);
+    }
+
+    // Update is called once per frame
+    void Update()
         {
         this.enemyList = SpawnPoint.GetComponent<EnemyManager>().CurrentEnemyList; //매 프레임마다 적 리스트 갱신
         if (attackTarget != null)
