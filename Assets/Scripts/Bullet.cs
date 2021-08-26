@@ -37,8 +37,9 @@ public class Bullet : MonoBehaviour
         if (target != null)
         {
             //조준방향으로 발사
-            transform.LookAt(new Vector3(target.position.x,0.5f,target.position.z));
-            this.transform.position = Vector3.MoveTowards(this.transform.position, target.position, bulletSpeed * Time.deltaTime);
+            Vector3 aimPosition = new Vector3(target.position.x, 0.5f, target.position.z); //k
+            transform.LookAt(aimPosition);
+            this.transform.position = Vector3.MoveTowards(this.transform.position, aimPosition, bulletSpeed * Time.deltaTime);
         } 
         else
         {

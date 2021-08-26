@@ -8,13 +8,18 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private float maxHP;
     [SerializeField]
+    private float moveSpeed;
+    [SerializeField]
     private Animator anim;
+    
     private float currentHP;
     private bool isDie = false;
+    private bool isWalking = true;
     public float hitDamage;
     GameObject target;
     GameObject Player;
     NavMeshAgent agent;
+
     
 
     public GameObject GameManagerObject;
@@ -34,6 +39,24 @@ public class Enemy : MonoBehaviour
 
         
     }
+    private void Update()
+    {
+        AgentStuckAvoid();
+
+    }
+
+    public void AgentStuckAvoid()
+    {
+        if (isWalking && !agent.hasPath && agent.pathStatus == NavMeshPathStatus.PathComplete && agent.speed > 0.3)
+        {
+            Debug.LogWarning("enemy Repathing!!");
+            agent.enabled = false;
+            agent.enabled = true;
+            agent.SetDestination(target.transform.position);
+            agent.speed = moveSpeed;
+        }
+    }
+    
     public void GetDamage(float Damage) //k
     {
         currentHP -= Damage;
@@ -49,7 +72,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            
+            isWalking = false;
             StartCoroutine(HitPlayer());
             
            
@@ -70,7 +93,7 @@ public class Enemy : MonoBehaviour
 
 
 
-
+    
 
 
 }

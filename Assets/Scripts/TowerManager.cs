@@ -35,7 +35,7 @@ public class TowerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(EventSystem.current.IsPointerOverGameObject());
+        
         if(temporarilyPlacedTower != null && Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
