@@ -40,7 +40,7 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+ 
     }
 
     public void BakeNav()
@@ -51,6 +51,12 @@ public class EnemyManager : MonoBehaviour
     public bool CalculateNewPath()
     {
         agent.CalculatePath(_endpoint.transform.position, navMeshPath);
+        NavMeshPath path = new NavMeshPath();
+        var line = this.GetComponent<LineRenderer>();
+        NavMesh.CalculatePath(transform.position, _endpoint.transform.position, NavMesh.AllAreas, path);
+        line.positionCount = path.corners.Length;
+        for (int i = 0; i < path.corners.Length; i++)
+            line.SetPosition(i, path.corners[i]);
         print("New path calculated");
         if (navMeshPath.status ==  NavMeshPathStatus.PathPartial) 
         {
