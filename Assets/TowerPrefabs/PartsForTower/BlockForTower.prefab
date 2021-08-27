@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2257781446758517098}
   - component: {fileID: 7739127171949732169}
   m_Layer: 10
-  m_Name: Tower 2
+  m_Name: BlockForTower
   m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
