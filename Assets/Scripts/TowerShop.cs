@@ -14,8 +14,9 @@ public class TowerShop : MonoBehaviour
     [SerializeField] List<GameObject> _towerOnList;
     // _towerOnList와 1대1 대응하는 토글 리스트
     [SerializeField] List<GameObject> _shopButtons;
+    [SerializeField] GameObject _shopUI;
     // Button Instantiate할 부모 오브젝트
-    [SerializeField] GameObject shopButtonsGrid;
+    [SerializeField] GameObject _shopButtonsGrid;
 
 
     // Start is called before the first frame update
@@ -25,10 +26,10 @@ public class TowerShop : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleUI()
     {
-
+        _shopUI.SetActive(!_shopUI.activeSelf);
+        OffToggle();
     }
 
     public void MakeShoppingList()
@@ -43,12 +44,21 @@ public class TowerShop : MonoBehaviour
         }
     }
 
+    private void OffToggle()
+    {
+        Debug.Log("hi");
+        for (int i = 0; i < _shopButtons.Count; i++)
+        {
+            _shopButtons[i].GetComponent<Toggle>().isOn = false;
+        }
+    }
+
     private void AddShoppingItem(int towerCode)
     {
         _towerOnList.Add(_towerAll[towerCode]);
         GameObject newButton = Instantiate(_shopButtonPrefab);
         SetShoppingButton(newButton, towerCode);
-        newButton.transform.SetParent(shopButtonsGrid.transform);
+        newButton.transform.SetParent(_shopButtonsGrid.transform);
         _shopButtons.Add(newButton);
     }
 
@@ -56,7 +66,7 @@ public class TowerShop : MonoBehaviour
     {
         // 초기화
         Toggle toggleComponent = newButton.GetComponent<Toggle>();
-        toggleComponent.group = shopButtonsGrid.GetComponent<ToggleGroup>();
+        toggleComponent.group = _shopButtonsGrid.GetComponent<ToggleGroup>();
 
         // towerIndex가 주어지면 그에 따라 상점 버튼 꾸미기
         // 임시로 label만 바꿔두겠습니다.
