@@ -57,6 +57,7 @@ public class EnemyManager : MonoBehaviour
         line.positionCount = path.corners.Length;
         for (int i = 0; i < path.corners.Length; i++)
             line.SetPosition(i, path.corners[i]);
+        if (line.positionCount == 0) return false;
         print("New path calculated");
         if (navMeshPath.status ==  NavMeshPathStatus.PathPartial) 
         {

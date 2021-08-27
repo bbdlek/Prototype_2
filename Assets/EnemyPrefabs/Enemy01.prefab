@@ -600,7 +600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 20
-  moveSpeed: 10
+  moveSpeed: 3
   anim: {fileID: 0}
   hitDamage: 1
   GameManagerObject: {fileID: 0}

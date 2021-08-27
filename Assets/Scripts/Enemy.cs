@@ -79,6 +79,7 @@ public class Enemy : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            agent.speed = 0;
             isWalking = false;
             StartCoroutine(HitPlayer());
             
@@ -91,10 +92,10 @@ public class Enemy : MonoBehaviour
     {
 
         anim.SetBool("ContactPlayer", true);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.5f);
         StartCoroutine(Player.GetComponent<Player>().GetHitCoroutine(hitDamage));
         GameManagerObject.GetComponent<EnemyManager>().CurrentEnemyList.Remove(gameObject);
-        yield return new WaitForSeconds(0.7f);
+        yield return new WaitForSeconds(0.75f);
         Destroy(gameObject);
     }
 
