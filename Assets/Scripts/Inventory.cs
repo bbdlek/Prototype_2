@@ -7,6 +7,7 @@ using System;
 
 public class Inventory : MonoBehaviour
 {
+    private int MAX_INVENTORY_CAPACITY = 5; // 임의로 5로 지정해두겠습니다.
     public TowerManager _towerManager;
     public List<Toggle> _toggle;
     public List<GameObject> _tower;
@@ -48,7 +49,16 @@ public class Inventory : MonoBehaviour
         GameObject toggle = Instantiate(_togglePrefab);
         toggle.transform.SetParent(_toggleGrid.transform);
         _toggle.Add(toggle.GetComponent<Toggle>());
+        SetToggleContents(toggle, tower);
+
         _tower.Add(tower);
+    }
+
+    private void SetToggleContents(GameObject toggle, GameObject tower)
+    {
+        // TODO: 인벤토리 버튼 내용 꾸미기
+        Text label = toggle.GetComponentInChildren<Text>();
+        label.text = tower.name;
     }
 
     public void DeleteSelectedItem()
@@ -83,5 +93,10 @@ public class Inventory : MonoBehaviour
         {
             _toggle[i].interactable = interactable;
         }
+    }
+
+    public bool isFull()
+    {
+        return _toggle.Count >= MAX_INVENTORY_CAPACITY;
     }
 }
