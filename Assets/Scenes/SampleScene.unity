@@ -488,7 +488,7 @@ MonoBehaviour:
   _towerManager: {fileID: 625576663}
   _tower:
   - {fileID: 1394604036566041070, guid: 8780bcaa2eaefb146bb712553e9d5e6f, type: 3}
-  - {fileID: 7454545231653059525, guid: 82edf50bc8122c14487173c04c698cb8, type: 3}
+  - {fileID: 7454545231653059525, guid: 2264cb05c4faacb44be460746b5a27c1, type: 3}
 --- !u!1 &264636581
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +912,7 @@ MonoBehaviour:
   towerToSpawn: {fileID: 0}
   temporarilyPlacedTower: {fileID: 0}
   towerSpawned: []
+  _inven: {fileID: 222947787}
 --- !u!114 &625576664
 MonoBehaviour:
   m_ObjectHideFlags: 0

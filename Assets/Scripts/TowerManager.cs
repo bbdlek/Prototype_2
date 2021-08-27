@@ -26,6 +26,8 @@ public class TowerManager : MonoBehaviour
     public GameObject towerToSpawn;
     public GameObject temporarilyPlacedTower;
     public List<GameObject> towerSpawned = new List<GameObject>();
+
+    public Inventory _inven;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +39,11 @@ public class TowerManager : MonoBehaviour
     {
         if (temporarilyPlacedTower != null && Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
+            for(int i = 0; i < _inven._toggle.Count; i++)
+            {
+                _inven._toggle[i].interactable = false;
+            }
+            
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit = new RaycastHit();
             if (Physics.Raycast(ray, out hit, 100f, 1 << LayerMask.NameToLayer("Floor")))
@@ -182,7 +189,10 @@ public class TowerManager : MonoBehaviour
                 enemyManager.BakeNav();
                 towerSpawned.Add(temporarilyPlacedTower);
                 temporarilyPlacedTower = null;
-                
+                for (int i = 0; i < _inven._toggle.Count; i++)
+                {
+                    _inven._toggle[i].interactable = true;
+                }
                 return;
             }
         }
@@ -214,6 +224,10 @@ public class TowerManager : MonoBehaviour
         {
             GameObject.Destroy(temporarilyPlacedTower);
             temporarilyPlacedTower = null;
+            for (int i = 0; i < _inven._toggle.Count; i++)
+            {
+                _inven._toggle[i].interactable = true;
+            }
         }
     }
 
