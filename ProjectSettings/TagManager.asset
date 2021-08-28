@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Tower
   - Floor
-  - Enemy
+  - FlyingEnemy
+  - GroundEnemy
   layers:
   - Default
   - TransparentFX
