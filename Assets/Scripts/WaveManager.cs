@@ -16,6 +16,8 @@ public class WaveManager : MonoBehaviour
     private Wave[] waves;
     [SerializeField]
     private EnemyManager enemySpawner;
+    [SerializeField]
+    private ObstacleManager obstacleManager;
     private int currentWaveIndex = -1;
     // Start is called before the first frame update
 
@@ -24,6 +26,7 @@ public class WaveManager : MonoBehaviour
         if(enemySpawner.CurrentEnemyList.Count ==0 && currentWaveIndex < waves.Length-1) //웨이브 진행
         {
             currentWaveIndex++;
+            obstacleManager.WayObstacleActiveSwitch();
             enemySpawner.StartWave(waves[currentWaveIndex]);
         }
     }

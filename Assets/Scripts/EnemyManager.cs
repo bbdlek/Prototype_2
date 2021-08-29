@@ -57,6 +57,7 @@ public class EnemyManager : MonoBehaviour
         line.positionCount = path.corners.Length;
         for (int i = 0; i < path.corners.Length; i++)
             line.SetPosition(i, path.corners[i]);
+        if (line.positionCount == 0) return false;
         print("New path calculated");
         if (navMeshPath.status ==  NavMeshPathStatus.PathPartial) 
         {
@@ -77,12 +78,25 @@ public class EnemyManager : MonoBehaviour
 
     IEnumerator EnemySpawner()
     {
-        int enemyIndex = Random.Range(0, currentWave.enemyPrefabs.Length);
-        GameObject clone = Instantiate(currentWave.enemyPrefabs[enemyIndex], _enemypoint.transform);
-        CurrentSpawnenemy = clone;
-        enemySpawnCount++; //积粮蜡公客 惑包绝捞 积己等 利 墨款飘
-        CurrentEnemyList.Add(CurrentSpawnenemy); 
-        yield return new WaitForSeconds(currentWave.spawnTime); //积己 后档 
+
+        switch (currentWave.enemyPrefabs[enemySpawnCount].tag )
+        {
+            case "FlyingEnemy":
+                spawnPos.position = new Vector3(_enemypoint.transform.position.x, 3, _enemypoint.transform.position.z);
+                break;
+            case "GroundEnemy":
+                spawnPos = _enemypoint.transform;
+                break;
+
+        }
+            
+
+
+            GameObject clone = Instantiate(currentWave.enemyPrefabs[enemySpawnCount],spawnPos);
+            CurrentSpawnenemy = clone;
+            enemySpawnCount++; //积粮蜡公客 惑包绝捞 积己等 利 墨款飘
+            CurrentEnemyList.Add(CurrentSpawnenemy);
+            yield return new WaitForSeconds(currentWave.spawnTime); //积己 后档 
         if (enemySpawnCount < currentWave.maxEnemyCount) StartCoroutine(EnemySpawner());
     }
 

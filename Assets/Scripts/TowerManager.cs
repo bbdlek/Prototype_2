@@ -26,10 +26,12 @@ public class TowerManager : MonoBehaviour
     public GameObject towerToSpawn;
     public GameObject temporarilyPlacedTower;
     public List<GameObject> towerSpawned = new List<GameObject>();
+
+    public Inventory _inven;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -37,6 +39,8 @@ public class TowerManager : MonoBehaviour
     {
         if (temporarilyPlacedTower != null && Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
+            _inven.SetToggleInteractable(false);
+
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit = new RaycastHit();
             if (Physics.Raycast(ray, out hit, 100f, 1 << LayerMask.NameToLayer("Floor")))
@@ -61,12 +65,14 @@ public class TowerManager : MonoBehaviour
         }
 
     }
-    public void PlaceTowerTemp(){
+    public void PlaceTowerTemp()
+    {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit = new RaycastHit();
         if (Physics.Raycast(ray, out hit, 100f, 1 << LayerMask.NameToLayer("Floor")))
         {
             Vector3 towerSpawnPosition = new Vector3(Mathf.Floor(hit.point.x) + 0.5f, 0.5f, Mathf.Floor(hit.point.z) + 0.5f);
+            towerToSpawn = _inven.GetSelectedTower();
             InstantiateTempTower(towerToSpawn, towerSpawnPosition);
         }
     }
@@ -74,19 +80,20 @@ public class TowerManager : MonoBehaviour
     public GameObject InstantiateTempTower(GameObject tower, Vector3 position)
     {
         if (tower == null)
-            temporarilyPlacedTower = null; 
+            temporarilyPlacedTower = null;
         else temporarilyPlacedTower = Instantiate(tower, position, Quaternion.identity);
         return temporarilyPlacedTower;
     }
 
-    public TowerSpawnCheck CheckTowerSpawnable(){
-        if(CheckTowerSpace() == false)
+    public TowerSpawnCheck CheckTowerSpawnable()
+    {
+        if (CheckTowerSpace() == false)
         {
             return TowerSpawnCheck.NotEnoughSpace;
         }
-        else if(CheckTowerEntity() == false)
+        else if (CheckTowerEntity() == false)
             return TowerSpawnCheck.TooMuchTower;
-        else if(CheckEnemyPath() == false)
+        else if (CheckEnemyPath() == false)
             return TowerSpawnCheck.NoEnemyPath;
         else
             return TowerSpawnCheck.OK;
@@ -113,7 +120,7 @@ public class TowerManager : MonoBehaviour
         {
             Ray ray = new Ray(item.position + new Vector3(0, 10f, 0), new Vector3(0, -1, 0));
             RaycastHit hit = new RaycastHit();
-            if (Physics.Raycast(ray, out hit, 100f, 1<<LayerMask.NameToLayer("Floor")))
+            if (Physics.Raycast(ray, out hit, 100f, 1 << LayerMask.NameToLayer("Floor")))
             {
                 Debug.DrawRay(ray.origin, ray.direction * 10f, Color.red, 1f);
                 if (hit.transform.tag == "Tower")
@@ -131,7 +138,7 @@ public class TowerManager : MonoBehaviour
 
     public bool CheckTowerEntity()
     {
-        if(towerSpawned.Count < MAX_TOWER_ENTITY)
+        if (towerSpawned.Count < MAX_TOWER_ENTITY)
             return true;
         else
             return false;
@@ -141,7 +148,7 @@ public class TowerManager : MonoBehaviour
     public bool CheckEnemyPath()
     {
         enemyManager.BakeNav();
-        if(enemyManager.CalculateNewPath())
+        if (enemyManager.CalculateNewPath())
         {
 
             temporarilyPlacedTower.SetActive(false);
@@ -160,10 +167,10 @@ public class TowerManager : MonoBehaviour
 
     public void TrySpawnTower()
     {
-        if(temporarilyPlacedTower != null)
+        if (temporarilyPlacedTower != null)
         {
             TowerSpawnCheck checkResult = CheckTowerSpawnable();
-            if(checkResult != TowerSpawnCheck.OK)
+            if (checkResult != TowerSpawnCheck.OK)
             {
                 //오류 표시
                 Debug.LogWarning("여기에는 설치할 수 없습니다");
@@ -182,7 +189,9 @@ public class TowerManager : MonoBehaviour
                 enemyManager.BakeNav();
                 towerSpawned.Add(temporarilyPlacedTower);
                 temporarilyPlacedTower = null;
-                
+
+                _inven.DeleteSelectedItem();
+                _inven.SetToggleInteractable(true);
                 return;
             }
         }
@@ -190,30 +199,32 @@ public class TowerManager : MonoBehaviour
 
     public void RotateTempTower()
     {
-        if(temporarilyPlacedTower != null)
+        if (temporarilyPlacedTower != null)
             temporarilyPlacedTower.transform.Rotate(new Vector3(0, 90, 0));
     }
 
     public void invertTempTower()
     {
-        if(temporarilyPlacedTower != null)
+        if (temporarilyPlacedTower != null)
         {
             temporarilyPlacedTower.transform.localScale = new Vector3(temporarilyPlacedTower.transform.localScale.x * -1, 1, 1);
             // BoxCollider 꼬임 방지를 위해 Children의 globalScale 값을 양수로 해줌.
-            for(int i=0; i<temporarilyPlacedTower.transform.childCount; i++)
+            for (int i = 0; i < temporarilyPlacedTower.transform.childCount; i++)
             {
                 Transform childTransform = temporarilyPlacedTower.transform.GetChild(i).transform;
-                childTransform.localScale = new Vector3(childTransform.localScale.x*-1, 1,1);
+                childTransform.localScale = new Vector3(childTransform.localScale.x * -1, 1, 1);
             }
         }
     }
 
     public void destroyTempTower()
     {
-        if(temporarilyPlacedTower != null)
+        if (temporarilyPlacedTower != null)
         {
             GameObject.Destroy(temporarilyPlacedTower);
             temporarilyPlacedTower = null;
+
+            _inven.SetToggleInteractable(true);
         }
     }
 

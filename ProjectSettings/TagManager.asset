@@ -6,7 +6,8 @@ TagManager:
   tags:
   - Tower
   - Floor
-  - Enemy
+  - FlyingEnemy
+  - GroundEnemy
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - 
   - Floor
   - Tower_temp
-  - 
+  - Enemy
   - 
   - 
   - 
